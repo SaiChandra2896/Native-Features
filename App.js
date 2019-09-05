@@ -1,10 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
+import PlacesNavigator from './navigation/PlacesNavigator';
 
 export default function App() {
-  return (
-    <View>
-      <Text>hy</Text>
-    </View>
-  );
+  return <PlacesNavigator />;
 }
